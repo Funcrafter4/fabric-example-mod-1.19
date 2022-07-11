@@ -1,3 +1,5 @@
 {
-  "item.examplemod.raw_mythril_ore": "Raw Mythril Ore"
+  "item.examplemod.raw_mythril_ore": "Raw Mythril Ore",
+
+  "block.examplemod.mythril_block": "Mythril Block"
 }
