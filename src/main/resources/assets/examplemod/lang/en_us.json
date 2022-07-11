@@ -1,5 +1,9 @@
 {
   "item.examplemod.raw_mythril_ore": "Raw Mythril Ore",
 
-  "block.examplemod.mythril_block": "Mythril Block"
+  "item.examplemod.mythril_ingot": "Mythril Ingot",
+
+  "itemGroup.examplemod.tutorial_group": "M GROUP Tab",
+
+  "item.examplemod.mythril_block": "Mythril Block"
 }
