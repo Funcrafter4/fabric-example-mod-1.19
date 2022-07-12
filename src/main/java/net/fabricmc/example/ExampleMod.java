@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.example.block.ModBlocks;
 import net.fabricmc.example.block.entity.ModBlocksEntities;
 import net.fabricmc.example.item.ModItems;
+import net.fabricmc.example.recipe.ModRecipes;
 import net.fabricmc.example.screen.ModScreenHandler;
 import net.fabricmc.example.screen.MythrilBlockScreen;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
@@ -21,5 +22,6 @@ public class ExampleMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModBlocksEntities.registerAllBlockEntities();
 		ScreenRegistry.register(ModScreenHandler.MYTHRIL_BLOCK_SCREEN_HANDLER, MythrilBlockScreen::new);
+		ModRecipes.registerRecipes();
 	}
 }

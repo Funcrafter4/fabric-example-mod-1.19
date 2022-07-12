@@ -1,0 +1,14 @@
+{
+  "type": "examplemod:mythril_block",
+  "ingredients": [
+    {
+      "item": "examplemod:raw_mythril_ore"
+    },
+    {
+      "item": "examplemod:mythril_ingot"
+    }
+  ],
+  "output": {
+    "item": "minecraft:diamond_pickaxe"
+  }
+}
